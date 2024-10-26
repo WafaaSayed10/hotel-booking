@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bgImg{
+  background-image: url(https://images.unsplash.com/photo-1531983598325-a62c7a407251?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center center ;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgImg .checkout-header{
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.checkout .contain{
+  width: 80%;
+  margin: auto;
+}
+.image{
+  position: relative;
+}
+.image p{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  padding: 0 5px;
+  background-color: #003a70;
+  color: rgb(239,239,239);
+}
+.roomPrice .price{
+  font-size: 50px;
+  color: rgb(239,239,239);
+}
+.reservation{
+  background-color: #003a70;
+}
+.reservation h2, .reservation .check-in, .reservation .check-out{
+  color: #01abff;
+}
+.reservation p{
+  font-size: 14px;
+}
+.reservation .check-in, .reservation .check-out{
+  font-size: 14px;
+}
+.reservation h3, .reservation p{
+  color: rgb(239,239,239);
+}
+.reservation span, .information span{
+  color: rgb(143, 143, 143);
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.b-pay{
+  background-color: #003a70;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+}

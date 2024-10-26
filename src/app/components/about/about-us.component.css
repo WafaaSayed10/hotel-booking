@@ -1,0 +1,732 @@
+/* * {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-image: url(../../../assets/photo/Byblos-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+
+}
+
+.layer {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #1D1D1D 0%, #1D1D1D7A 100%);
+}
+
+.about {
+    font-size: 60px;
+    color: #fff;
+    align-content: center;
+
+}
+
+
+.theorigin {
+    width: 46%;
+}
+
+.theorigin h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.theorigin p {
+    font-size: 14px;
+    color: #5C5C5C;
+    letter-spacing: 1px;
+    line-height: 30px;
+    opacity: 0.6;
+
+
+}
+
+.number {
+    font-size: 140px;
+    padding-top: 120px;
+    padding-left: 115px;
+}
+
+.line{
+    width: 100%;
+    position: relative;
+}
+.line hr{
+    margin-top: -50px;
+    border: #413e3e 1px solid;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #ece6e6;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+
+}
+
+.wordC{
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    top: 15px;
+    letter-spacing: 2px;
+
+}
+
+.one{
+    left: 10%;
+}
+.two{
+    left: 30%;
+    background-color: #003A70;
+}
+.three{
+    left: 49%;
+}
+
+.four{
+
+    left: 89%;
+}
+
+.five{
+    left: 68%;
+}
+
+.wOne{
+    left: 8.8%;
+}
+
+.wTwo{
+    left: 29%;
+}
+
+.wThree{
+    left: 46.5%;
+}
+
+.wFour{
+    left: 66%;
+}
+
+.wFive{
+    left: 88.5%;
+}
+
+.section-three img{
+    width: 510px;
+    margin-top: 50px;
+}
+
+.image{
+    position: relative;
+}
+.circl{
+    width: 60px;
+    height: 60px;
+    background-color: #003A70;
+    border-radius: 50%;
+    position: absolute;
+    top: 44%;
+    left: 91%;
+}
+
+.best .title{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+.best h2{
+    font-size: 55px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.bWord{
+    font-size: 13px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    line-height: 30px;
+}
+
+.Inclusive{
+    width: 46%;
+    height: 34px;
+    font-size: 13px;
+    background-color: #003A70;
+    color: rgb(189, 186, 186);
+    padding-left: 20px;
+    padding-top: 8px;
+    font-weight: bold;
+    animation-name: yas;
+    animation-duration: 4s;
+}
+
+@keyframes yas {
+    0%{width: 0;opacity: 0.0;}
+    100%{width: 46%;opacity: 0.0;}
+}
+.pers{
+    color: rgb(189, 186, 186);
+    margin-left: 125px;
+    font-weight: bold;
+    animation-name: yasm;
+    animation-duration: 1s;
+}
+@keyframes yasm {
+    0%{opacity: 0.0;}
+    100%{opacity: 0.0;}
+}
+
+.pers1{
+    color: rgb(189, 186, 186);
+    margin-left: 310px;
+    font-weight: bold;
+    animation-name: yasm;
+}
+
+.back{
+    width: 100%;
+    height: 34px;
+    background-color: rgb(211, 208, 208);
+}
+
+.Half{
+    width: 76%;
+    height: 34px;
+    font-size: 13px;
+    background-color: #0e0f0f;
+    color: rgb(189, 186, 186);
+    padding-left: 20px;
+    padding-top: 8px;
+    font-weight: bold;
+    animation-name: yas;
+    animation-duration: 1s;
+}
+
+*/
+:root {
+    --primary-color: #003A70;
+    --secondary-color: #1D1D1D;
+    --light-color: #d6d1d1;
+    --text-color: #5C5C5C;
+    --text-light: rgb(189, 186, 186);
+    --text-opacity: 0.6;
+}
+
+* {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-image: url(../../../../public/Byblos-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.layer {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #1D1D1D 0%, #1D1D1D7A 100%);
+}
+
+.about {
+    font-size: 5vw;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+}
+
+.theorigin {
+    width: 570px;
+}
+
+.theorigin .est {
+    opacity: 0.5;
+    font-weight: light;
+    letter-spacing: 2px;
+}
+
+.theorigin h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.theorigin .pTheo{
+    font-size: 12px;
+    color: var(--text-color);
+    line-height: 2;
+    opacity: var(--text-opacity);
+    letter-spacing: 2px;
+    opacity: 0.6;
+}
+
+.number {
+    font-size: 135px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.line{
+    width: 100%;
+    position: relative;
+}
+.line hr{
+    margin-top: -50px;
+    border: #413e3e 1px solid;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #ece6e6;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+
+}
+
+
+.wordC{
+    font-size: 12px;
+    font-weight: 900;
+    position: absolute;
+    top: 15px;
+    letter-spacing: 2px;
+
+}
+
+.one{
+    left: 10%;
+}
+.two{
+    left: 30%;
+    background-color: #003A70;
+}
+.three{
+    left: 49%;
+}
+
+.four{
+
+    left: 89%;
+}
+
+.five{
+    left: 68%;
+}
+
+.wOne{
+    left: 8.8%;
+}
+
+.wTwo{
+    left: 29%;
+}
+
+.wThree{
+    left: 46.5%;
+}
+
+.wFour{
+    left: 66%;
+}
+
+.wFive{
+    left: 88.5%;
+}
+
+
+.section-three img {
+    width: 510px;
+    margin-top: 50px;
+}
+
+.image {
+    position: relative;
+}
+
+.best .title {
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+.best h2 {
+    font-size: 4vw;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.bWord {
+    font-size: .9vw;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+.all{
+    color: white;
+    font-size: 12px;
+}
+
+.all .inclusive{
+    background-color: #003a70;
+    margin-bottom: 1rem;
+    padding: 2px 15px;
+    width: 45%;
+    height: 30px;
+    animation-name: yas;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.all .Half{
+    background-color: black;
+    margin-bottom: 1rem;
+    padding: 2px 15px;
+    width: 75%;
+    height: 30px;
+    animation-name: tefa;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes yas {
+    0%{
+      width: 20%;
+    }
+    100%{
+      width: 45%;
+    }
+}
+  @keyframes tefa {
+    0%{
+      width: 20%;
+    }
+    100%{
+      width: 75%;
+    }
+}
+
+.section-four {
+    display: grid;
+    background-image: url(../../../../public/parallax-03.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 5%;
+}
+
+.hotelFacilitions{
+    color: rgb(180, 176, 176);
+}
+
+.hotelFacilitions p{
+    font-size: 12px;
+    letter-spacing: 4px
+}
+
+.hotelFacilitions h2{
+    letter-spacing: 1px;
+    font-size: 4vw;
+}
+
+.container {
+    margin-top: 35px;
+}
+
+.card {
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto 30px auto;
+    background-color:#003a70 ;
+    position: relative;
+    border-radius: 0px;
+    height: 370px;
+    border: none;
+}
+
+.card-title {
+    font-size: 7vw;
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    opacity: 0.3;
+}
+
+.card-text {
+    font-size: 2vw;
+    color: #fff;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 150px;
+    left: 35px;
+}
+
+.card-txt {
+    font-size: 1.1vw;
+    color: #dad6d6;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    opacity: 0.7;
+}
+
+.txt1{
+    top: 240px;
+}
+
+.txt2{
+    top: 280px;
+}
+
+.icon{
+    position: absolute;
+    top: 195px;
+    left: 35px;
+    opacity: 0.7;
+}
+
+.icon1{
+    top: 240px;
+}
+
+.icon2{
+    top: 280px;
+}
+
+.card-img{
+    border-radius: 0px;
+}
+
+.section-five {
+    padding: 30px 5%;
+}
+
+.patrOne,
+.partTwo,
+.partThree {
+    width: 100%;
+    /* max-width: 25%; */
+    height: auto;
+    padding: 25px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        font-size: 6vw;
+    }
+
+    .theorigin h2 {
+        font-size: 6vw;
+    }
+
+    .theorigin p {
+        font-size: 3vw;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .section-five {
+        display: block;
+    }
+
+    .patrOne, .partTwo, .partThree {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.patrOne{
+    width: 430px;
+    /* height: 360px; */
+}
+
+.partTwo{
+    width: 25%;
+    height: 505px;
+    border: 1px solid #d6d1d1;
+    position: relative;
+}
+
+.partThree{
+    width: 25%;
+    height: 545px;
+    border: 1px solid #d6d1d1;
+}
+
+.patrOne h4{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+
+.patrOne h1{
+    font-size: 50px;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+
+.patrOne p{
+    line-height: 1.9em;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.patrOne .btn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #003A70;
+    border-radius: 1px;
+    background-color: #003A70;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.patrOne a{
+    text-decoration: none;
+    color: #d6d1d1;
+}
+
+.partTwo .back{
+    width: 100%;
+    height: 200px;
+    background-image: url(../../../../public/cover\ part.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.layer1{
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0e0d0d 0%, #0a0a0a7a 100%);
+}
+
+.layer1 h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 39px;
+}
+
+.laytit{
+    position: absolute;
+    top: 88px;
+    left: 120px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.laytit h1{
+    font-size: 40px;
+}
+
+.list li{
+    font-size: 15px;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.butt{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 120px;
+}
+
+.partTwo a{
+    text-decoration: none;
+    color: white;
+}
+
+.back1{
+    width: 100%;
+    height: 200px;
+    background-image: url(../../../../public/coverpar.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.layer2{
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0e0d0d 0%, #0a0a0a7a 100%);
+}
+
+.layer2 h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 39px;
+}
+
+.laytit1{
+    position: absolute;
+    top: 88px;
+    left: 120px;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    font-weight: 600;
+}
+
+.laytit1 h1{
+    font-size: 40px;
+}
+
+.butto{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #003A70;
+    background-color: #003A70;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 120px;
+}
+
+.partThree a{
+    text-decoration: none;
+    color: white;
+}
+

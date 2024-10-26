@@ -1,0 +1,852 @@
+{
+  "Price": [
+    {
+      "id": "1",
+      "name": "LOWEST PRICE"
+    },
+    {
+      "id": "2",
+      "name": "HIGHEST PRICE"
+    }
+  ],
+  "Size": [
+    {
+      "id": "1",
+      "name": "LARGER ROOM"
+    },
+    {
+      "id": "2",
+      "name": "SMALLEST ROOM"
+    }
+  ],
+  "available": [
+    {
+      "id": "1",
+      "name": "available"
+    },
+    {
+      "id": "2",
+      "name": "unavailable"
+    }
+  ],
+  "Rooms": [
+    {
+      "id": "1",
+      "name": "Small Room",
+      "price": 56,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-01-1024x683.jpg",
+      "guests": 1,
+      "size": "15",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 2,
+      "availableID": 1,
+      "offerID": 1,
+      "offerPrice": 30,
+      "bestPrice": 2,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Room with View",
+      "price": 76,
+      "Quantity": 3,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-02-1024x683.jpg",
+      "guests": 4,
+      "size": "40",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 76,
+      "bestPrice": 2,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Apartment",
+      "price": 90,
+      "Quantity": 1,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-03-1024x683.jpg",
+      "guests": 5,
+      "size": "70",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "unavailable",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 2,
+      "offerID": 1,
+      "offerPrice": 30,
+      "bestPrice": 2,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Luxury Room",
+      "price": 49,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-04-1024x683.jpg",
+      "guests": 2,
+      "size": "50",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "unavailable",
+      "sizeID": 1,
+      "priceID": 1,
+      "availableID": 2,
+      "offerID": 2,
+      "offerPrice": 49,
+      "bestPrice": 2,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Family Room",
+      "price": 45,
+      "Quantity": 2,
+      "imgUrl": "http://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 3,
+      "size": "30",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 1,
+      "availableID": 1,
+      "offerID": 1,
+      "offerPrice": 10,
+      "bestPrice": 2,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Double Room",
+      "price": 39,
+      "Quantity": 4,
+      "imgUrl": "http://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-06-1024x683.jpg",
+      "guests": 2,
+      "size": "23",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 1,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 39,
+      "bestPrice": 2,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Single Room",
+      "price": 45,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 1,
+      "size": "30",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 1,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 45,
+      "bestPrice": 1,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Small Suite",
+      "price": 55,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 1,
+      "size": "35",
+      "info": "Proin lacinia vehicula amet Lorem ipsum dolor sit amet Morbi lacinia sagittis acum consectetur adipiscing elit Proin lacinia vehicula amet",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 2,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 55,
+      "bestPrice": 1,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Apartment",
+      "price": 72,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 3,
+      "size": "55",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 72,
+      "bestPrice": 1,
+      "bestRates": 2,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Family Room",
+      "price": 74,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/blog-01-1024x683.jpg",
+      "guests": 5,
+      "size": "75",
+      "info": "Praesent ultrices urna purus Sed vitae tristique nisl ultrices Donec a ligula lacinia, consect Nunc scelerisque velit a pulvin",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 74,
+      "bestPrice": 2,
+      "bestRates": 1,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Small Suite",
+      "price": 98,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/blog-02-1024x683.jpg",
+      "guests": 8,
+      "size": "100",
+      "info": "Praesent ultrices urna purus Sed vitae tristique nisl ultrices Donec a ligula lacinia, consect Nunc scelerisque velit a pulvin Donec eu volutpat mi, non turpis",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1,
+      "offerID": 2,
+      "offerPrice": 98,
+      "bestPrice": 2,
+      "bestRates": 1,
+      "amenities": [
+        {
+          "icon": "fa-person-swimming",
+          "label": "SWIMMING POOL"
+        },
+        {
+          "icon": "fa-tv",
+          "label": "TELEVISION"
+        },
+        {
+          "icon": "fa-ban-smoking",
+          "label": "NO SMOKING"
+        },
+        {
+          "icon": "fa-sink",
+          "label": "PRIVATE BATHROOM"
+        }
+      ]
+    }
+  ],
+  "information": [
+    {
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "arrival": "",
+      "request": "",
+      "Laundry": "",
+      "TV": "",
+      "Car": "",
+      "Sea": "",
+      "Breakfast": "",
+      "Wifi": "",
+      "Cleaning": "",
+      "coupon": "",
+      "id": "f1b1"
+    },
+    {
+      "id": "efa6",
+      "Laundry": "Laundry",
+      "TV": "",
+      "Car": "",
+      "Sea": "",
+      "Breakfast": "",
+      "Wifi": "",
+      "Cleaning": "",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "",
+      "coupon": ""
+    },
+    {
+      "id": "9d59",
+      "Laundry": true,
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "wafaa",
+      "surname": "sayed",
+      "email": "fefesayed522@gmail.com",
+      "phone": "01010620098",
+      "address": "assiut",
+      "city": "assiut",
+      "country": "egypt",
+      "zip": "ssss",
+      "request": "hello",
+      "arrival": "3:00 - 4:00 am",
+      "coupon": "sss"
+    },
+    {
+      "id": "9a9b",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "wafaa",
+      "surname": "sayed",
+      "email": "fefesayed522@gmail.com",
+      "phone": "01010620098",
+      "address": "assiut",
+      "city": "assiut",
+      "country": "egypt",
+      "zip": "ssss",
+      "request": "hello",
+      "arrival": "3:00 - 4:00 am",
+      "coupon": "sss"
+    },
+    {
+      "id": "992a",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "8:00 - 9:00 am",
+      "coupon": ""
+    },
+    {
+      "id": "d2f8",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "426f",
+      "Laundry": false,
+      "TV": false,
+      "Car": false,
+      "Sea": false,
+      "Breakfast": false,
+      "Wifi": false,
+      "Cleaning": true,
+      "name": "amaal",
+      "surname": "mostafa",
+      "email": "fefesayed522@gmail.com",
+      "phone": "01010620098",
+      "address": "assiut",
+      "city": "assiut",
+      "country": "egypt",
+      "zip": "aaaa",
+      "request": "tttt",
+      "arrival": "9:00 - 10:00 am",
+      "coupon": "sss"
+    },
+    {
+      "id": "27a3",
+      "Laundry": false,
+      "TV": false,
+      "Car": true,
+      "Sea": false,
+      "Breakfast": true,
+      "Wifi": false,
+      "Cleaning": "Cleaning FEE",
+      "name": "wafaa",
+      "surname": "sayed",
+      "email": "fefesayed522@gmail.com",
+      "phone": "01010620098",
+      "address": "assiut",
+      "city": "assiut",
+      "country": "egypt",
+      "zip": "",
+      "request": "",
+      "arrival": "10:00 - 11:00 am",
+      "coupon": ""
+    },
+    {
+      "id": "45ee",
+      "Laundry": false,
+      "TV": "Satellite TV",
+      "Car": false,
+      "Sea": "Sea View",
+      "Breakfast": false,
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "c72e",
+      "Laundry": true,
+      "TV": false,
+      "Car": false,
+      "Sea": false,
+      "Breakfast": false,
+      "Wifi": false,
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "78e9",
+      "Laundry": true,
+      "TV": "",
+      "Car": true,
+      "Sea": "",
+      "Breakfast": "",
+      "Wifi": "",
+      "Cleaning": "Cleaning FEE",
+      "name": "mostafa",
+      "surname": "nagaty",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "0476",
+      "Laundry": false,
+      "TV": "Satellite TV",
+      "Car": false,
+      "Sea": false,
+      "Breakfast": false,
+      "Wifi": false,
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "86fd",
+      "Laundry": "Laundry",
+      "TV": false,
+      "Car": "Car Rental",
+      "Sea": false,
+      "Breakfast": "Breakfast",
+      "Wifi": false,
+      "Cleaning": "Cleaning FEE",
+      "name": "wafaa",
+      "surname": "sayed",
+      "email": "fefesayed522@gmail.com",
+      "phone": "01010620098",
+      "address": "assiut",
+      "city": "assiut",
+      "country": "egypt",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "15fe",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "8e04",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "d132",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "6731",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "6792",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "mostafa",
+      "surname": "nagaty",
+      "email": "mostafa@gmail.com",
+      "phone": "01045632578",
+      "address": "assiut",
+      "city": "assiut",
+      "country": "egypt",
+      "zip": "ssss",
+      "request": "",
+      "arrival": "11:00 - 12:00 am",
+      "coupon": ""
+    },
+    {
+      "id": "c0f0",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": "Car Rental",
+      "Sea": "Sea View",
+      "Breakfast": "Breakfast",
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "",
+      "surname": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "I do not know",
+      "coupon": ""
+    },
+    {
+      "id": "df30",
+      "Laundry": "Laundry",
+      "TV": "Satellite TV",
+      "Car": false,
+      "Sea": "Sea View",
+      "Breakfast": false,
+      "Wifi": "Wifi",
+      "Cleaning": "Cleaning FEE",
+      "name": "mostafa",
+      "surname": "mohamed",
+      "email": "mostafa@gmail.com",
+      "phone": "01010558652",
+      "address": "assiut",
+      "city": "",
+      "country": "",
+      "zip": "",
+      "request": "",
+      "arrival": "4:00 - 5:00 am",
+      "coupon": ""
+    }
+  ]
+}

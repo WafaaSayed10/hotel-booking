@@ -1,0 +1,105 @@
+.bgImg{
+  background-image: url(https://images.unsplash.com/photo-1471253794676-0f039a6aae9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center center ;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgImg .news-header{
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.hotelNews{
+  background-color: #f9f9f9;
+}
+.newsImage{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+  margin-bottom: 30px;
+}
+.c-body{
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 15px 1px #e6e6e6;
+}
+.btn-more{
+  background-color: #003a70;
+  padding: 5px 15px;
+}
+.btn-more a{
+  text-decoration: none;
+  color: white;
+}
+.newsImage img{
+  width: 100%;
+  display: block;
+}
+.card2,.card4{
+  position: relative;
+}
+.card3,.card5, .card6{
+  position: relative;
+}
+.image{
+  overflow: hidden;
+}
+.layout,.layout1, .layout2, .layout3, .layout4{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.layout1, .layout2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.layout1{
+  background-color: #01aaffda;
+}
+.layout1 a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.layout2{
+  background-color: #003a70e6;
+}
+.layout2 h6{
+  color: rgb(247, 246, 246);
+}
+.layout2 p{
+  color: rgb(239,239,239);
+}
+.layout3, .layout4{
+  padding: 35px;
+  color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+
+@media all and (max-width:767px){
+  .newsImage{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+@media all and (min-width:768px) and (max-width:1020px){
+  .newsImage{
+    grid-template-columns: repeat(2,1fr);
+  }
+}

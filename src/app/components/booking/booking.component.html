@@ -1,0 +1,137 @@
+<div class="section">
+  <h1 class="text-center text-light fw-medium">{{Title}}</h1>
+</div>
+<div class="section1 row">
+  <div class="sec1 col-6">
+    <section class="photo text-center">
+      <img class="photoRoom" [src]="roomDetails?.imgUrl" alt="{{ roomDetails?.name }}" />
+      <h4 class="m-4">{{ roomDetails?.name }}</h4>
+      <div class="details text-light fs-6 " *ngIf="roomDetails">
+          <p>Price : {{ roomDetails.price }} $</p>
+          <p>Info : {{ roomDetails.info }}</p>
+          <p>Amenities : </p>
+          <ul >
+            <li class="p-2" *ngFor="let amenity of roomDetails.amenities">{{ amenity.label }}</li>
+          </ul>
+          <p class="note mt-5">NOT INCL : 3 $ CITY TAX ( person * night )
+            INCLUDED : 22 % VAT ALREADY APPLIED</p>
+        </div>
+      </section>
+  </div>
+  <div class="sec2 col-6">
+
+      <div class="note1 text-center p-2 ms-4 text-light fs-6">You are booking as guest, LOGIN or REGISTER if you want to save your reservation on your account.</div>
+      <form #usersForm="ngForm" (ngSubmit)="getUsersFormData(usersForm.value)">
+
+      <h2 class="ms-4 fs-2 mt-4 pt-3">Add Extra Services :</h2>
+      <div class="check mt-5 ms-5 fs-6">
+        <input class="checkbox" type="checkbox" id="laundry" name="Laundry" value="Laundry" ngModel="Laundry"/>
+        <label class="ms-3" for="laundry"><strong>Laundry</strong>:10 $ ( Guest / Night ) = 10 $</label>
+        <input class="checkbox ms-5" type="checkbox" id="TV" name="TV" #inp2 value="Satellite TV" ngModel="Satellite TV"/>
+        <label class="ms-3" for="TV"><strong>Satellite TV</strong>:10 $ ( Guest / Night ) = 10 $</label>
+      </div>
+      <div class="check mt-4 ms-5 fs-6">
+      <input class="checkbox" type="checkbox" id="Rental" name="Car" #inp3 value="Car Rental" ngModel="Car Rental"/>
+      <label class="ms-3" for="Rental"><strong>Car Rental</strong>:30 $ ( Room / Night ) = 30 $</label>
+      <input class="checkbox ms-5" type="checkbox" id="Sea" name="Sea" #inp4 value="Sea View" ngModel="Sea View"/>
+      <label class="ms-3" for="Sea"><strong>Sea View</strong> : 10 $ ( Room / Night ) = 10 $</label>
+      </div>
+      <div class="check mt-4 ms-5 fs-6">
+      <input class="checkbox" type="checkbox" id="Breakfast" name="Breakfast" #inp5 value="Breakfast" ngModel="Breakfast"/>
+      <label class="ms-3" for="Breakfast"><strong>Breakfast </strong>:10 $ ( Guest / Night ) = 10 $</label>
+      <input class="checkbox ms-5" type="checkbox" id="Wifi" name="Wifi" #inp6 value="Wifi" ngModel="Wifi"/>
+      <label class="ms-3" for="Wifi"><strong>Wifi</strong>:100 $ ( Room / Night ) = 100 $</label>
+      </div>
+      <div class="check mt-4 ms-5 fs-6">
+      <input class="checkbox" type="checkbox" id="Cleaning" name="Cleaning" checked #inp7 value="Cleaning FEE" ngModel="Cleaning FEE"/>
+      <label class="ms-3" for="Cleaning"><strong> Cleaning FEE</strong>: 10 $ ( Room / Trip ) = 10 $</label>
+      </div>
+      <hr class="mt-5 ms-5">
+      <h2  class="ms-4 fs-2 mt-4 pt-3">Add Your Informations :</h2>
+
+      <div class="row ms-5 mt-5">
+        <div class="col forma">
+        <label for="name" class="form-label mb-2">Name *</label>
+        <input type="text" id="name" class="form-control" name="name" required ngModel>
+        </div>
+        <div class="col forma">
+        <label for="Surname" class="form-label mb-2">Surname *</label>
+        <input type="text" id="Surname" class="form-control" name="surname" required ngModel>
+        </div>
+      </div>
+      <div class="row ms-5 mt-5">
+        <div class="col forma">
+        <label for="Email" class="form-label mb-2">Email *</label>
+        <input type="email" id="Email" class="form-control" name="email" required ngModel>
+        </div>
+        <div class="col forma">
+        <label for="Telephone" class="form-label mb-2">Telephone *</label>
+        <input type="tel" id="Telephone" class="form-control" name="phone" required ngModel>
+        </div>
+      </div>
+      <div class="row ms-5 mt-5">
+        <div class="col forma">
+        <label for="Address" class="form-label mb-2">Address</label>
+        <input type="text" id="Address" class="form-control" name="address" ngModel>
+        </div>
+        <div class="col forma">
+        <label for="City" class="form-label mb-2">City</label>
+        <input type="text" id="City" class="form-control" name="city" ngModel>
+        </div>
+      </div>
+      <div class="row ms-5 mt-5">
+        <div class="col forma">
+          <label for="Country" class="form-label mb-2">Country</label>
+          <input type="text" id="Country" class="form-control" name="country" ngModel>
+        </div>
+        <div class="col forma">
+          <label for="ZIP" class="form-label mb-2">ZIP</label>
+          <input type="text" id="ZIP" class="form-control" name="zip" ngModel>
+        </div>
+        <div class="form-floating ms-0 mt-4">
+          <p class="label">Requests</p>
+          <textarea class="form-control" id="floatingTextarea2" name="request" style="height: 180px" ngModel></textarea>
+        </div>
+        <div class="select mt-4">
+          <label for="Arrival" class="form-label mb-2">Arrival</label>
+          <select class="form-control form-control-lg" id="Arrival" name="arrival" [(ngModel)]="arrival" >
+          <option value="I do not know">I do not know</option>
+          <option value="12:00 - 1:00 am">12:00 - 1:00 am</option>
+          <option value="1:00 - 2:00 am">1:00 - 2:00 am</option>
+          <option value="2:00 - 3:00 am">2:00 - 3:00 am</option>
+          <option value="3:00 - 4:00 am">3:00 - 4:00 am</option>
+          <option value="4:00 - 5:00 am">4:00 - 5:00 am</option>
+          <option value="5:00 - 6:00 am">5:00 - 6:00 am</option>
+          <option value="6:00 - 7:00 am">6:00 - 7:00 am</option>
+          <option value="7:00 - 8:00 am">7:00 - 8:00 am</option>
+          <option value="8:00 - 9:00 am">8:00 - 9:00 am</option>
+          <option value="9:00 - 10:00 am">9:00 - 10:00 am</option>
+          <option value="10:00 - 11:00 am">10:00 - 11:00 am</option>
+          <option value="11:00 - 12:00 am">11:00 - 12:00 am</option>
+          <option value="12:00 - 1:00 pm">12:00 - 1:00 pm</option>
+          <option value="1:00 - 2:00 pm">1:00 - 2:00 pm</option>
+          <option value="2:00 - 3:00 pm">2:00 - 3:00 pm</option>
+          <option value="3:00 - 4:00 pm">3:00 - 4:00 pm</option>
+          <option value="4:00 - 5:00 pm">4:00 - 5:00 pm</option>
+          <option value="5:00 - 6:00 pm">5:00 - 6:00 pm</option>
+          <option value="6:00 - 7:00 pm">6:00 - 7:00 pm</option>
+          <option value="7:00 - 8:00 pm">7:00 - 8:00 pm</option>
+          <option value="8:00 - 9:00 pm">8:00 - 9:00 pm</option>
+          <option value="9:00 - 10:00 pm">9:00 - 10:00 pm</option>
+          <option value="10:00 - 11:00 pm">10:00 - 11:00 pm</option>
+          <option value="11:00 - 12:00 pm">11:00 - 12:00 pm</option>
+          </select>
+        </div>
+        <div class="Coupon mt-4 ">
+          <label class="pb-2" for="Coupon">Coupon</label>
+          <input type="text" class="form-control" id="Coupon" name="coupon" #inp18 ngModel>
+        </div>
+        <div class="form-check mt-4 ms-4">
+          <input type="checkbox" class="form-check-input mb-3" required checked id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Terms and conditions *</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn">CHECKOUT</button>
+      </div>
+    </form>
+  </div>
+</div>

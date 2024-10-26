@@ -1,0 +1,118 @@
+<div class="section1 ">
+  <h1 class="text-center text-light fw-medium">{{Title}}</h1>
+  <div class="stepper-content">
+    <div class="stepper row">
+      <div class="step  col-12 col-md-6 col-lg-3 col-xl-3">
+        <span class="active">1</span>
+        <div>Search</div>
+      </div>
+      <div class="step col-12 col-md-6 col-lg-3 col-xl-3">
+        <span>2</span>
+        <div>Booking</div>
+      </div>
+      <div class="step  col-12 col-md-6 col-lg-3 col-xl-3">
+        <span>3</span>
+        <div>Chekout</div>
+      </div>
+      <div class="step col-12 col-md-6 col-lg-3 col-xl-3">
+        <span>4</span>
+        <div>Thank You</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section2 text-center">
+  <div class="sec">
+    <ul class="menu">
+      <li (click)="toggleUnderline('stayPrice')" [class.active]="activeMenu === 'stayPrice'">
+        Stay Price ▾
+        <ul class="dropdown">
+          <li><a (click)="filterRooms('lowestPrice')">Lowest Price</a></li>
+          <li><a (click)="filterRooms('highestPrice')">Highest Price</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="sec">
+    <ul class="menu">
+      <li (click)="toggleUnderline('roomSize')" [class.active]="activeMenu === 'roomSize'">
+        Room Size ▾
+      <ul class="dropdown">
+        <li><a (click)="filterRooms('largestRoom')">Larger Room</a></li>
+        <li><a (click)="filterRooms('smallestRoom')">Smallest Room</a></li>
+      </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="section3 row">
+  <div class="allBranches clo-4 col-sm-4">
+    <h2 class="text-center text-light">Our Branche</h2>
+    <div class="reservation">
+      <label for="checkIn">Check-in</label>
+      <input
+        type="date"
+        id="checkIn"
+        [(ngModel)]="checkInDate"
+        (change)="onCheckInDateChange()"
+      />
+    </div>
+    <div class="reservation">
+      <label for="checkOut">Check-out</label>
+      <input
+        type="date"
+        id="checkOut"
+        [(ngModel)]="checkOutDate"
+        (change)="onCheckOutDateChange()"
+      />
+    </div>
+    <div class="reservation">
+      <label for="nights">NIGHTS</label>
+      <input
+        type="number"
+        id="nights"
+        [(ngModel)]="nights"
+        readonly
+      />
+    </div>
+    <div class="reservation">
+      <label for="adults">GUESTS</label>
+      <input
+        type="number"
+        id="adults"
+        [(ngModel)]="adults"
+        min="1"
+      />
+    </div>
+  </div>
+  <div class="contaianer1 col-4" *ngFor="let room of filteredRooms; trackBy: trackRoomById">
+    <mat-card appearance="outlined" class="cards" (click)="show(room.id)">
+      <img mat-card-image [src]="room.imgUrl" alt="{{ room.name }}">
+      <mat-card-title>
+        <h3 routerLink="/details" (click)="detalis(room.id)">{{ room.name }}</h3>
+      </mat-card-title>
+      <mat-card-subtitle>
+        <p>
+          <i class="fa-regular fa-circle-user fa-sm iconP" style="color: #b4b3bb;"> {{ room.guests }} Guests</i>
+          <i class="fa-solid fa-hotel fa-sm iconP" style="color: #b4b3bb;"> {{ room.size }} ft</i>
+        </p>
+      </mat-card-subtitle>
+      <mat-card-content class="contentCard">
+        <p>{{ room.info }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button  class="btnCard" [routerLink]="['/booking', room.id]">BOOK NOW FOR {{ room.price }} $</button>
+        <p class="info"><i class="fa-solid fa-info fa-lg" style="color: #ffffff;"></i></p>
+      </mat-card-actions>
+      <hr class="hr1">
+      <mat-card-footer>
+        <p class="iconFooter">
+          <span *ngFor="let amenity of room.amenities" class="iconBannerContainer">
+            <i [class]="'fa-solid ' + amenity.icon" style="color: #b4b3bb;"></i>
+            <span class="banner">{{ amenity.label }}</span>
+          </span>
+        </p>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</div>

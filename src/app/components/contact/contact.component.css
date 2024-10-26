@@ -1,0 +1,87 @@
+.bgImg{
+  background-image: url(https://media.istockphoto.com/id/2075119610/photo/white-architecture-in-santorini-island-greece-two-chairs-on-the-terrace-with-sea-view.jpg?s=2048x2048&w=is&k=20&c=lCV7H1BdI5HMX3hNFMPLU071SGhT_EQ4ZpFBKncslSA=);
+  background-image: url(https://images.unsplash.com/photo-1446822775955-c34f483b410b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+  background-size: cover;
+  background-position: center ;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.bgImg .contact-header{
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c-cards{
+  justify-content: space-around;
+  align-items: center;
+}
+/*.img-move{
+  transform: translateX(-4rem);
+}*/
+.contact-us{
+  margin-block: 5rem;
+}
+.btn-vp{
+  background-color: #003a70;
+  color: white;
+  padding: 5px;
+  margin-top: 1.5rem;
+  padding: 8px 15px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.btn-vp:hover{
+  transform: scale(0.9);
+}
+.example-form {
+  min-width: 150px;
+  max-width: 700px;
+  width: 100%;
+}
+.example-full-width {
+  width: 100%;
+}
+.btn-form{
+  background-color: #1d1d1d !important;
+  color: white !important;
+  border-radius: 0 !important;
+}
+.btn-form:hover{
+  background-color: #003a70 !important;
+}
+.map-content{
+  position: relative ;
+}
+.contact-info{
+  position: absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.c-body{
+  color: rgb(239, 239, 239);
+  border-radius: 0 !important;
+}
+.btn-cont{
+  color: #1d1d1d !important;
+  background-color: rgb(239, 239, 239) !important;
+  border: 2px solid black !important;
+  border-radius: 0 !important;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.btn-cont:hover{
+  transform: scale(0.9);
+}
+@media all and (max-width:1020px){
+  .map{
+    width: 1022px;
+    left: -30.8px;
+  }
+}

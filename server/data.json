@@ -1,0 +1,190 @@
+{
+  "Price": [
+    {
+      "id": 1,
+      "name": "LOWEST PRICE"
+    },
+    {
+      "id": 2,
+      "name": "HIGHEST PRICE"
+    }
+  ],
+  "Size": [
+    {
+      "id": 1,
+      "name": "LARGER ROOM"
+    },
+    {
+      "id": 2,
+      "name": "SMALLEST ROOM"
+    }
+  ],
+  "available": [
+    {
+      "id": 1,
+      "name": "available"
+    },
+    {
+      "id": 2,
+      "name": "unavailable"
+    }
+  ],
+  "Rooms": [
+    {
+      "id": 1,
+      "name": "Small Room",
+      "price": 56,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-01-1024x683.jpg",
+      "guests": 1,
+      "size": "15",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 2,
+      "availableID": 1
+    },
+    {
+      "id": 2,
+      "name": "Room with View",
+      "price": 76,
+      "Quantity": 3,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-02-1024x683.jpg",
+      "guests": 4,
+      "size": "40",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1
+    },
+    {
+      "id": 3,
+      "name": "Apartment",
+      "price": 90,
+      "Quantity": 1,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-03-1024x683.jpg",
+      "guests": 5,
+      "size": "70",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "unavailable",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 2
+    },
+    {
+      "id": 4,
+      "name": "Luxury Room",
+      "price": 49,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-04-1024x683.jpg",
+      "guests": 2,
+      "size": "50",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "unavailable",
+      "sizeID": 1,
+      "priceID": 1,
+      "availableID": 2
+    },
+    {
+      "id": 5,
+      "name": "Family Room",
+      "price": 45,
+      "Quantity": 2,
+      "imgUrl": "http://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 3,
+      "size": "30",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 1,
+      "availableID": 1
+    },
+    {
+      "id": 6,
+      "name": "Double Room",
+      "price": 39,
+      "Quantity": 4,
+      "imgUrl": "http://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-06-1024x683.jpg",
+      "guests": 2,
+      "size": "23",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 1,
+      "availableID": 1
+    },
+    {
+      "id": 7,
+      "name": "Single Room",
+      "price": 45,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 1,
+      "size": "30",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 1,
+      "availableID": 1
+    },
+    {
+      "id": 8,
+      "name": "Small Suite",
+      "price": 55,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 1,
+      "size": "35",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 2,
+      "priceID": 2,
+      "availableID": 1
+    }
+    ,
+    {
+      "id": 9,
+      "name": "Apartment",
+      "price": 72,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/room-05-1024x683.jpg",
+      "guests": 3,
+      "size": "55",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel molestie nisl. Duis ac mi leo.",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1
+    }
+    ,
+    {
+      "id": 10,
+      "name": "Family Room",
+      "price": 74,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/blog-01-1024x683.jpg",
+      "guests": 5,
+      "size": "75",
+      "info": "Praesent ultrices urna purus Sed vitae tristique nisl ultrices Donec a ligula lacinia, consect Nunc scelerisque velit a pulvin",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1
+    },
+    {
+      "id": 11,
+      "name": "Small Suite",
+      "price": 98,
+      "Quantity": 2,
+      "imgUrl": "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/family-resort/wp-content/uploads/sites/15/2023/07/blog-02-1024x683.jpg",
+      "guests": 8,
+      "size": "100",
+      "info": "Praesent ultrices urna purus Sed vitae tristique nisl ultrices Donec a ligula lacinia, consect Nunc scelerisque velit a pulvin Donec eu volutpat mi, non turpis",
+      "available": "available",
+      "sizeID": 1,
+      "priceID": 2,
+      "availableID": 1
+    }
+  ]
+}
