@@ -723,6 +723,18 @@ box-shadow: 0 0 4px 1px #0d77f0;
 
 /*media*/
 @media all and (max-width:767px){
+  .landing .mainheader .sub-title{
+    font-size: 50px;
+  }
+  .hotel-payview{
+    padding-block: 2rem;
+  }
+  .hotel-payview .aboutinfo h1{
+    font-size: 40px;
+  }
+  .offers{
+    padding-block: 2rem;
+  }
   .newsImage{
     grid-template-columns: repeat(1,1fr);
   }
@@ -741,6 +753,9 @@ box-shadow: 0 0 4px 1px #0d77f0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .all-position .animat{
+    display: none;
   }
 }
 @media all and (min-width:768px) and (max-width:1020px){

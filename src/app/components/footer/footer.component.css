@@ -45,6 +45,9 @@
   width: 100%;
 }
 @media all and (max-width:991px) {
+  .footer{
+    overflow: hidden;
+  }
   .footer-information{
     flex-direction: column;
     text-align: center;
@@ -55,5 +58,9 @@
   }
   .footer .links a{
     font-size: smaller;
+    padding: 0;
+  }
+  .links ul{
+    padding: 0;
   }
 }
